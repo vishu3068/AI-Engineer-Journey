@@ -1,0 +1,10 @@
+name = input('enter your full name: ')
+
+print("lenght: ", len(name))
+print("upper: ", name.upper())
+print('lower: ', name.lower())
+print("capitalize: ", name.capitalize())
+print("find first a: ",name.find("a"))
+print("fimd last a: ", name.rfind("a"))
+print("is digit: ", name.isdigit())
+print("is alpha: ", name.isalpha())
